@@ -30,9 +30,7 @@
        {
          header('Location: sistema.php');
        }
-       else{
-        header('Location: sistema.php');
-       }
+    
 }
 ?>
 <!DOCTYPE html>
