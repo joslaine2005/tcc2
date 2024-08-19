@@ -40,7 +40,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="formulario.css">
     <title></title>
     <style>
     </style>
@@ -48,7 +48,7 @@
 <body>
  <a href="index.html">Voltar</a>
     <div class="box">
-        <form action="cadastro.php" method = "POST">
+        <form action="formulario.php" method = "POST">
             <fieldset>
                 <legend><b>fórmulario de cliente</b></legend>
                 <br></br>   
@@ -101,7 +101,7 @@
                         <label for="endereco"class="labelInput">Endereço</label>
                     </div>
                     <br></br>
-               <input type="submit" name="submit" id="submit">
+               <input type="submit" name="submit" id="update">
             </fieldset>
         </form>
     </div>
